@@ -1,1 +1,4 @@
-
+interface:
+  display_name: "原创角色动态表情包"
+  short_description: "分析参考GIF动作与节奏，保留原创角色，制作透明中文表情并准备微信投稿素材"
+  default_prompt: "使用 $reference-gif-stickers 继续我的原创角色表情包项目，先检查现有素材与阶段，不调用付费API。"
