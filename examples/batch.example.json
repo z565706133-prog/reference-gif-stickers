@@ -1,1 +1,26 @@
-
+{
+  "schema_version": 1,
+  "batch_id": "first-test",
+  "parameters_verified": false,
+  "verification_source": "https://developers.openai.com/api/reference/resources/images/methods/edit",
+  "verified_on": "",
+  "total_cap": 1,
+  "pricing": null,
+  "jobs": [
+    {
+      "id": "pose-01",
+      "cap": 1,
+      "prompt_file": "pose-01.txt",
+      "images": ["character.png"],
+      "fields": {
+        "model": "gpt-image-2.6-sunburst",
+        "n": 1,
+        "size": "1024x1024",
+        "quality": "high",
+        "complexity": "medium",
+        "output_format": "png",
+        "background": "transparent"
+      }
+    }
+  ]
+}
