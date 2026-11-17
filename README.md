@@ -32,7 +32,7 @@
 
 > 请下载这个仓库中的 reference-gif-stickers-v6.zip，检查内容后将解压出的Skill安装到我的个人Skill目录，并检查Python、Pillow和字体环境。不要执行密钥设置脚本，不调用图片API。
 
-仓库目前提供ZIP，需下载并解压，不能只克隆仓库就算安装完成。也可手动将整个文件夹放入：
+仓库根目录直接提供 SKILL.md 和全部源码，也保留 v6 ZIP。可以让 Codex 从仓库根目录检查并安装 Skill；如用ZIP，解压后安装 reference-gif-stickers 文件夹。也可手动将整个Skill目录放入：
 
 - Windows：`C:\Users\你的用户名\.codex\skills\`
 - macOS / Linux：`~/.codex/skills/`
@@ -213,4 +213,5 @@ Skill会分析并推荐，不需要你逐张选择：
 v6包内附来源说明和原项目MIT许可证。当前分享包未包含原项目核心生成脚本及原始提示词模板；新增内容不冒称由原作者编写。
 
 具体见包内 `THIRD_PARTY_NOTICES.md` 与 `licenses/ray-sticker-shop-MIT.txt`。第三方许可不自动覆盖使用者提供的角色、参考GIF和字体。
+
 
